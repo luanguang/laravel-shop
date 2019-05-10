@@ -80,7 +80,7 @@ return [
     |
     */
 
-    'locale' => 'zh_HK',
+    'locale' => 'zh-CN',
 
     /*
     |--------------------------------------------------------------------------
@@ -158,8 +158,8 @@ return [
         Illuminate\Redis\RedisServiceProvider::class,
         Illuminate\Auth\Passwords\PasswordResetServiceProvider::class,
         Illuminate\Session\SessionServiceProvider::class,
-        // Overtrue\LaravelLang\TranslationServiceProvider::class,
-        Illuminate\Translation\TranslationServiceProvider::class,
+        Overtrue\LaravelLang\TranslationServiceProvider::class,
+        // Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
